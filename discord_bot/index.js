@@ -2,8 +2,8 @@ const fs = require('node:fs');
 const path = require('node:path');
 const axios = require('axios');
 const { Client, Collection, GatewayIntentBits, IntentsBitField, Events} = require('discord.js');
-const { token } = require('./config.json');
-
+//const { token } = require('./config.json');
+const token = process.env.token
 // Debugging headers
 
 
